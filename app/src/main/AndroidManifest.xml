@@ -12,8 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Steam">
         <activity
+            android:name=".CadastrarUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecuperarSenhaActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,12 +28,10 @@
         </activity>
         <activity
             android:name=".SplashActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>
