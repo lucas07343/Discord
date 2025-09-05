@@ -58,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end"
 
-        android:text="recuperar a senha"
+        android:text="recuperar a senha"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnEntrar"
